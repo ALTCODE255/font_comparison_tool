@@ -110,7 +110,7 @@ if __name__ == "__main__":
         The five boxing wizards jump quickly.
 
         !#$%&'()*+,-./0123456789:;<=>?@
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`{|}~
         ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïð"""
     )
 
