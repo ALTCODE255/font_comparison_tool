@@ -1,5 +1,4 @@
 import json
-import os
 import sys
 from textwrap import dedent
 from tkinter import Entry, Frame, StringVar, Text, Tk
