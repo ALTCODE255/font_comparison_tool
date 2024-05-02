@@ -109,8 +109,8 @@ if __name__ == "__main__":
         Sphinx of black quartz, judge my vow.
         The five boxing wizards jump quickly.
 
-        !#$%&'()*+,-./0123456789:;<=>?@
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`{|}~
+        !#$%&'()*+,-./0123456789:;<=>?@[\\]^_`{|}~
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ
         ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïð"""
     )
 
