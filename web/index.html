@@ -12,25 +12,27 @@
 
 <body>
     <div
-         class="d-flex flex-column align-items-center justify-content-center"
+         class="container d-flex flex-column align-items-center justify-content-center"
          style="height: 85vh">
         <h2 class="m-3">Font Comparison Tool</h2>
-        <textarea oninput="updatePreviewBoth();" rows="6" cols="80" class="m-2" id="input" placeholder="The quick brown fox jumps over the lazy dog.
+        <textarea oninput="updatePreviewBoth();" rows="6" class="form-control m-2 w-75" id="input" placeholder="The quick brown fox jumps over the lazy dog.
 Sphinx of black quartz, judge my vow.
 The five boxing wizards jump quickly.
 
 !#$%&'()*+,-./0123456789:;<=>?@[\]^_`{|}~
 ABCDEFGHIJKLMNOPQRSTUVWXYZ"></textarea>
-        <div class="row m-2">
-            <div class="col-md">
-                <center><input type="text" oninput="updatePreview(this.id, 'preview1', this.placeholder);" placeholder="Arial" id="font1"></center>
-                <textarea readonly style="font-family: Arial" rows="7" cols="50" class="m-2" id="preview1"></textarea>
+        <center>
+            <div class="row m-2">
+                <div class="col">
+                    <input type="text" oninput="updatePreview(this.id, 'preview1', this.placeholder);" placeholder="Arial" id="font1">
+                    <textarea readonly style="font-family: Arial" rows="7" cols="50" class="form-control m-2" id="preview1"></textarea>
+                </div>
+                <div class="col">
+                    <input type="text" oninput="updatePreview(this.id, 'preview2', this.placeholder);" placeholder="Calibri" id="font2">
+                    <textarea readonly style="font-family: Calibri" rows="7" cols="50" class="form-control m-2" id="preview2"></textarea>
+                </div>
             </div>
-            <div class="col-md">
-                <center><input type="text" oninput="updatePreview(this.id, 'preview2', this.placeholder);" placeholder="Calibri" id="font2"></center>
-                <textarea readonly style="font-family: Calibri" rows="7" cols="50" class="m-2" id="preview2"></textarea>
-            </div>
-        </div>
+        </center>
     </div>
 
     <script>

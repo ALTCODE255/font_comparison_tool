@@ -32,3 +32,6 @@
 }
 
 
+.form-control::placeholder{
+    color: rgba(var(--bs-body-color-rgb), 0.3) !important;
+}
